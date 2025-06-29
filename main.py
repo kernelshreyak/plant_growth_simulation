@@ -159,7 +159,7 @@ class Plant:
     def plot(self):
         """Interactive visualization with flowers"""
         app = QtWidgets.QApplication.instance() or QtWidgets.QApplication([])
-        win = pg.GraphicsLayoutWidget(title="Plant Growth with Flowers")
+        win = pg.GraphicsLayoutWidget(title="Plant Growth Simulation")
         vb = win.addViewBox(); vb.setAspectLocked(True)
         xm, xr = WIDTH/2, WIDTH*0.3
         vb.setRange(xRange=(xm-xr, xm+xr), yRange=(-SOIL_DEPTH, HEIGHT*0.6))
