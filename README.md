@@ -50,9 +50,9 @@ The window displays:
 
 Below are example images showing the plant growth simulation output at different stages:
 
-![Plant Growth 1](images/img1.png)
+![Plant Growth 1](images/img1.webp)
 
-![Plant Growth 2](images/img2.png)
+![Plant Growth 2](images/img2.webp)
 
 ## Configuration
 
