@@ -48,7 +48,7 @@ The window displays:
 
 ## Visualization Examples
 
-Below are example images showing the plant growth simulation output at different stages:
+Below are example images showing the plant growth simulation output for different growth scenarios (only the config parameters are changed):
 
 ![Plant Growth 1](images/img1.webp)
 
