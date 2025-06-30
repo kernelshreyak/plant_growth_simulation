@@ -46,6 +46,14 @@ The window displays:
 - Light green scatter points for leaves.
 - Colored scatter points for flowers blooming after a threshold cycle.
 
+## Visualization Examples
+
+Below are example images showing the plant growth simulation output at different stages:
+
+![Plant Growth 1](images/img1.png)
+
+![Plant Growth 2](images/img2.png)
+
 ## Configuration
 
 Modify parameters in `plantsim_config.py` to customize the simulation, including:
@@ -67,7 +75,7 @@ This project is open source and free to use under the MIT License.
 
 ## Author
 
-[Your Name]
+Shreyak Chakraborty
 
 ## Acknowledgments
 
