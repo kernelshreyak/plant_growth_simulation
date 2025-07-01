@@ -22,16 +22,12 @@ This project is a simulation of plant growth dynamics that models both above-gro
 ## Requirements
 
 - Python 3.7 or higher
-- Packages:
-  - numpy
-  - numba
-  - pyqtgraph
-  - PyQt6 or PySide6 (for Qt bindings)
+- Packages are listed in `requirements.txt`.
 
   You can install the required packages with:
 
   ```bash
-  pip install numpy numba pyqtgraph PyQt6
+  pip install -r requirements.txt
   ```
 
 ## Running the Simulation

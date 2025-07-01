@@ -1,0 +1,5 @@
+numpy==1.26.4
+PyQt6==6.9.1
+numba==0.61.0
+PyOpenGL==3.1.7
+PyOpenGL-accelerate==3.1.9
