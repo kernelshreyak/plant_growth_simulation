@@ -1,6 +1,5 @@
 from PyQt6 import QtWidgets
 from copy import deepcopy
-from plantsim_config import DEFAULT_PARAMS
 from plant_sim import Plant
 
 class ParamGui(QtWidgets.QWidget):

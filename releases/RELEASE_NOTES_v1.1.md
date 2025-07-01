@@ -10,7 +10,7 @@
   - All simulation parameters are now editable via a Qt GUI before running the simulation.
   - Parameters are loaded from a single config dictionary (`DEFAULT_PARAMS`).
 - **Improved Plotting**
-  - PyQtGraph visualization opens in a 1920x1080 window.
+  - PyQtGraph visualization opens in a 1366x768 window.
   - Plot window is reliably displayed and not garbage collected.
 - **Bug Fixes & Usability**
   - Fixed event loop issues with PyQt.
@@ -21,5 +21,5 @@
 
 ---
 
-**Author:** Shreyak Chakraborty  
+**Author:** Shreyak Chakraborty
 **Date:** July 1, 2025

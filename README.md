@@ -1,15 +1,18 @@
 # Plant Growth Simulation
 
-This project is a simulation of plant growth dynamics that models both above-ground branches and leaves and below-ground root development. It incorporates environmental factors such as sunlight, temperature, and soil moisture to drive growth patterns, branching behavior, and flowering.
+This project is a simulation of plant growth dynamics that models both above-ground branches and leaves and below-ground root development. It incorporates environmental factors such as sunlight, temperature, and soil moisture to drive growth patterns, branching behavior, and flowering. The project is fully modularized with well-defined components for simulation, scalar fields, GUI control, and visualization.
 
 ## Features
 
-- Environmental scalar fields influencing growth: sunlight, temperature, and moisture.
+- Modular design with separate modules for simulation logic, scalar fields, GUI controls, and main entrypoint.
+- Editable simulation parameters via a PyQt6-based parameter control GUI prior to running.
+- Environmental scalar fields influencing growth: sunlight, temperature, and moisture, accelerated by Numba.
 - Branching and bifurcation dynamics for shoots.
 - Root growth adapting to soil moisture.
 - Flower blooming triggered in late growth cycles.
-- Interactive 2D visualization leveraging PyQtGraph for real-time viewing of plant structure.
-- High-performance computation with Numba JIT acceleration.
+- Interactive 2D visualization using PyQtGraph in a 1366x768 window for real-time viewing of plant structure.
+- Reliable PyQt6 event loop with immediate logging and consistent parameter usage.
+- High-performance computation accelerated with Numba JIT.
 
 ## Project Structure
 
