@@ -53,9 +53,13 @@ The window displays:
 
 Below are example images showing the plant growth simulation output for different growth scenarios (only the config parameters are changed):
 
+![Parameter control from GUI](images/img4.png)
+
 ![Plant Growth 1](images/img1.webp)
 
 ![Plant Growth 2](images/img2.webp)
+
+![Plant Growth 3](images/img3.png)
 
 ## Configuration
 
